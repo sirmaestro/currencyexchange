@@ -22,7 +22,7 @@ function getrate() {
 var selectedcurrency = 'NZD';
 var selectedcurrency2 = 'USD';
 var amount = 1;
-var inputamount = $("input-amount")[0];
+var inputamount = $("#input-amount")[0];
 var currencydropdown = $("#currency-dropdown")[0];
 var currencydropdown2 = $("#currency-dropdown-2")[0];
 inputamount.addEventListener("change", function () {
