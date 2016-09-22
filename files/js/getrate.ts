@@ -25,7 +25,7 @@ function getrate(): void {
 var selectedcurrency = 'NZD';
 var selectedcurrency2 = 'USD';
 var amount = 1;
-var inputamount : HTMLInputElement = <HTMLInputElement> $("input-amount")[0];
+var inputamount : HTMLInputElement = <HTMLInputElement> $("#input-amount")[0];
 var currencydropdown : HTMLInputElement = <HTMLInputElement> $("#currency-dropdown")[0];
 var currencydropdown2 : HTMLInputElement = <HTMLInputElement> $("#currency-dropdown-2")[0];
 
