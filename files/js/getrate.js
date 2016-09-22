@@ -25,7 +25,7 @@ var amount = 1;
 
 // inputamount.addEventListener("change", function () {
 $("#input-amount").change(function () {
-    var amount = document.getElementById("input-amount").value;
+    amount = document.getElementById("input-amount").value;
     var rate = fx(amount).from(selectedcurrency).to(selectedcurrency2);
     var rate = +rate.toFixed(2);
     var rate = rate.toLocaleString();
