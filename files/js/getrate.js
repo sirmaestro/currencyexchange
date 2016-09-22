@@ -21,9 +21,10 @@ function getrate() {
 var selectedcurrency = 'NZD';
 var selectedcurrency2 = 'USD';
 var amount = 1;
-var inputamount = $("#input-amount")[0];
+// var inputamount = $("#input-amount")[0];
 
-inputamount.addEventListener("change", function () {
+// inputamount.addEventListener("change", function () {
+$("#input-amount").change(function () {
     var amount = document.getElementById("input-amount").value;
     var rate = fx(amount).from(selectedcurrency).to(selectedcurrency2);
     var rate = +rate.toFixed(2);
